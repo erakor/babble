@@ -1,0 +1,72 @@
+body { 
+	background: #303030;
+	color: #303030;
+	font-family: "Lucida Grande", "Verdana", sans-serif;
+	font-size: 75%;
+	line-height: 1.5em;
+}
+
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+h1 {
+	background: url(../homepage/img/logo.png) no-repeat;
+	display: block;
+	height: 162px;
+	margin-bottom: 30px;
+	text-indent: -9999px;
+	width: 580px;
+}
+
+#info p {
+	background: url(../homepage/img/info.png) no-repeat;
+	display: block;
+	height: 153px;
+	margin-bottom: 70px;
+	text-indent: -9999px;
+	width: 831px;
+}
+
+#bouton {
+	margin: 0 auto;
+	width: 353px;
+}
+#bouton a {
+	background: url(../homepage/img/bouton.gif) no-repeat;
+	display: block;
+	height: 80px;
+	margin-bottom: 50px;
+	text-indent: -9999px;
+	width: 353px;
+}
+
+#comingsoon {
+	margin: 0 auto;
+	margin-top: 180px;
+	width: 785px;
+}
+#comingsoon p {
+	background: url(../homepage/img/comingsoon.png) no-repeat;
+	display: block;
+	height: 133px;
+	margin-bottom: 50px;
+	text-indent: -9999px;
+	width: 785px;
+}
+
+#contact {
+	margin: 50px auto;
+	width: 200px;
+}
+#contact a {
+	color: #a0a0a0;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#wrapper {
+	height: 100%;
+	margin: 50px auto;
+	overflow: hidden;
+	width: 900px;	
+}

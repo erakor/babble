@@ -1,0 +1,55 @@
+/* @group Main Rules */
+
+body {
+	background: #fff;
+	color: #303030;
+	font: 62.5% "Lucida Grande", "Trebuchet", "Verdana", sans-serif;
+}
+
+/* @end */
+
+/* @group Layout */
+
+#wrapper {
+	padding: 20px;
+}
+
+/* @end */
+
+
+
+/* @group Heading */
+
+h1 {
+	border-bottom: 3px solid #303030;
+	font-size: 2.0em;
+	width: 100%;
+}
+
+h2 {
+	background: url(../img/123.png) no-repeat left center;
+	display: block;
+	float: left;
+	height: 45px;
+	margin-right: 10px;
+	text-indent: -9999px;
+	width: 45px;
+}
+
+h2#first {background: url(../img/123.png) no-repeat left top;}
+h2#last {background: url(../img/123.png) no-repeat left bottom;}
+
+/* @end */
+
+/* @group List */
+
+li {
+	clear: both;
+	font-size: 1.4em;
+	line-height: 22px;
+	margin: 15px;
+	overflow: hidden;
+	width: 700px;
+}
+
+/* @end */
